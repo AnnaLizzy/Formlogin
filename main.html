@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Login 10</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="languages/css/style.css">
+</head>
+
+<body class="img js-fullheight" style="background-image: url(images/76824.jpg);">
+	<div class="translate_wrapper">
+
+		<div class="current_lang">
+			<div class="lang">
+				<img src="languages/images/usa.png">
+				<span class="lang-txt translate" id="en">EN</span>
+				<span class="fa fa-chevron-down chevron"></span>
+			</div>
+		</div>
+
+		<div class="more_lang">
+
+			<div class="lang" data-value='cn'>
+				<img src="languages/images/china.png">
+				<span class="lang-txt translate" id="cn">简体中文</span>
+			</div>
+
+			<div class="lang selected" data-value='en'>
+				<img src="languages/images/usa.png">
+				<span class="lang-txt translate" id="en">English<span> (US)</span></span>
+			</div>
+
+			<div class="lang" data-value='vn'>
+				<img src="languages/images/vietnam (1).png">
+				<span class="lang-txt translate" id="vn">Tiếng việt</span>
+			</div>
+		</div>
+
+	</div>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section lang" key="login"></h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+
+						<form action="#" class="signin-form">
+							<div class="form-group">
+								<input type="text" class="form-control lang" data-placeholder="user" placeholder=""
+									required>
+							</div>
+							<div class="form-group">
+								<input id="password-field" type="password" class="form-control lang"
+									data-placeholder="pass" placeholder="" required>
+								<span toggle="#password-field"
+									class="fa fa-fw fa-eye field-icon toggle-password"></span>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="form-control btn btn-primary submit px-3 lang"
+									key="submit"></button>
+							</div>
+							<div class="form-group d-md-flex">
+								<div class="w-50">
+									<label class="checkbox-wrap checkbox-primary">Remember Me
+										<input type="checkbox" checked>
+										<span class="checkmark"></span>
+									</label>
+								</div>
+								<div class="w-50 text-md-right">
+									<a href="index.html" style="color: #fff">Forgot Password</a>
+								</div>
+							</div>
+						</form>
+						<p class="w-100 text-center">&mdash; Or Sign In With &mdash;</p>
+						<div class="social d-flex text-center">
+							<a href="#" class="px-2 py-2 mr-md-1 rounded">Smart Office</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="languages/js/login.js"></script>
+</body>
+
+</html>

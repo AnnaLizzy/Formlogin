@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selector</title>
+    <script>
+        function onLanguageChange() {
+            var languageSelect = document.getElementById('languageSelect');
+            var selectedLanguage = languageSelect.options[languageSelect.selectedIndex].value;
+            alert('Selected language: ' + selectedLanguage);
+            // Thực hiện hành động khi ngôn ngữ được chọn, ví dụ như thay đổi ngôn ngữ trên trang
+        }
+    </script>
+</head>
+<body>
+    <h1>Language Selector</h1>
+    <select id="languageSelect" onchange="onLanguageChange()">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+        <option value="de">Deutsch</option>
+        <option value="vi">Tiếng Việt</option>
+        <!-- Thêm các ngôn ngữ khác tại đây -->
+    </select>
+</body>
+</html>
